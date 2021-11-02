@@ -7,7 +7,7 @@
 
 cd ${HOME}/dotfile_backup/
 
-BACKUP=${HOME}/dotfile_backup/scripts/dotfile_backup_list
+BACKUP=${HOME}/dotfile_backup/scripts/backup_list
 
 timestamp() {
   date +"%d-%m-%Y at %T"
