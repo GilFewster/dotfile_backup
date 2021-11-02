@@ -18,8 +18,8 @@ grep -v '^$\|^\s*\#' $BACKUP | while read -r line; do
 done
 
 if [[ `git status --porcelain` ]]; then
-	git pull origin master
+	git pull origin main
 	git add .
 	git commit -m "automatic update: $(timestamp)"
-	git push origin master
+	git push origin main
 fi
