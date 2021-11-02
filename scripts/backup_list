@@ -1,0 +1,23 @@
+# zsh
+~/.zshrc ~/dotfile_backup/home_dir/.zshrc
+~/.zsh_aliases ~/dotfile_backup/home_dir/.zsh_aliases
+~/.p10k.zsh ~/dotfile_backup/home_dir/.p10k.zsh
+
+# tmux
+~/.tmux.conf ~/dotfile_backup/home_dir/.tmux.conf
+~/.tmux.theme ~/dotfile_backup/home_dir/.tmux.theme
+
+# vs code
+~/vscode_projects.json ~/dotfile_backup/home_dir/vscode_projects.json
+
+# Brew
+~/Brewfile ~/dotfile_backup/home_dir/Brewfile
+
+
+# vim & nvim 
+~/.vimrc ~/dotfile_backup/vim/.vimrc
+~/.config/nvim/init.vim  ~/dotfile_backup/nvim/init.vim
+
+# iterm
+~/iterm-prefs/com.googlecode.iterm2.plist ~/dotfile_backup/iterm/com.googlecode.iterm2.plist
+~/iterm-prefs/nord.itermcolors ~/dotfile_backup/iterm/nord.itermcolors
