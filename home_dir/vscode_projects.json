@@ -1,0 +1,89 @@
+{
+  "groups": [
+    {
+      "name": "APSYS",
+      "projects": [
+        {
+          "name": "APSYS Console",
+          "description": "AP Systems Console",
+          "path": "~/dev/artpro/apsys-console"
+        },
+        {
+          "name": "APSYS Packages",
+          "description": "AP Systems Packages",
+          "path": "~/dev/artpro/apsys-console-packages"
+        }
+      ]
+    },
+    {
+      "name": "AP Services",
+      "projects": [
+        {
+          "name": "Icecore Interactive",
+          "description": "NMA Ice Core Electron App",
+          "path": "~/dev/artpro/nma-lia-di-icecore"
+        },
+        {
+          "name": "NoQ ToT WebApp",
+          "description": "Tastes of Tasmania NoQ Web App",
+          "path": "~/dev/artpro/tastetas-noq-web"
+        },
+        {
+          "name": "NoQ ToT Admin",
+          "description": "Tastes of Tasmania NoQ Admin App",
+          "path": "~/dev/artpro/tastetas-noq-admin"
+        }
+      ]
+    },
+    {
+      "name": "AP Lab",
+      "projects": [
+        {
+          "name": "React Hook Form",
+          "description": "Poking React Hook Forms",
+          "path": "~/dev/lab/react-hook-forms"
+        },
+        {
+          "name": "Vanilla Extract",
+          "description": "Testing",
+          "path": "~/dev/lab/vanilla-extract"
+        },
+        {
+          "name": "Generative SVG Experiments",
+          "description": "Gen SVG",
+          "path": "~/dev/lab/generative-svg"
+        },
+        {
+          "name": "Design System",
+          "description": "Experimental design system with Webrix",
+          "path": "~/dev/lab/design-system"
+        },
+        {
+          "name": "Drag List",
+          "description": "Drag and Drop sortable lists",
+          "path": "~/dev/lab/lists"
+        }
+      ]
+    },
+    {
+      "name": "Personal",
+      "projects": [
+        {
+          "name": "Stega",
+          "description": "Steganography",
+          "path": "~/dev/lab/stega"
+        },
+        {
+          "name": "Dotfiles Backup",
+          "description": "Backing up dotfiles",
+          "path": "~/dotfile_backup"
+        },
+        {
+          "name": "Depth Tool",
+          "description": "Build paralax images from photo depth maps",
+          "path": "~/dev/lab/depthmap"
+        }
+      ]
+    }
+  ]
+}

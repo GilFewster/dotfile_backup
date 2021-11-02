@@ -1,0 +1,48 @@
+#+----------------+
+#+ Plugin Support +
+#+----------------+
+
+#+--- tmux-prefix-highlight ---+
+set -g @prefix_highlight_output_prefix ""
+set -g @prefix_highlight_output_suffix ""
+set -g @prefix_highlight_copy_mode_attr "fg=brightcyan,bg=#121212,bold"
+
+#+----------------+
+#   Pane Styles   #
+#+----------------+
+set -g window-active-style 'bg=#2D333E'
+setw -g window-style 'bg=#2E343F,fg=#D8DEE9'
+
+
+#+--------------+
+#+    Borders   +
+#+--------------+
+set -g pane-border-format "╮#{?window_zoomed_flag, 🔎,} #{?client_prefix,#[fg=#EC0868]PREFIX ACTIVE,#{pane_current_path}} #[fg=default]╭"
+setw -g pane-border-status top
+set-option -g pane-border-style 'bg=#2E343F,fg=#666667'
+set -g pane-active-border-style "bg=#2D333E,fg=white"
+# set -g pane-active-border-style "fg=cyan"
+
+#+--------------+
+#+  Status Bar  +
+#+--------------+
+set-option -a status-style bg="#232324";
+set-option -a status-style fg="#aaaaaa";
+
+set-option -g status-position bottom 
+set -g status-left-length 40
+set -g status-right-length 100
+set -g status-left "#[fg=#999999,bg=#2E343F] "
+# set -g status-right 'HEY'
+set -g status-right '#(~/go/bin/./gitmux "#{pane_current_path}")'
+
+set -g window-status-format "[#I]"
+set -g window-status-current-format "#[fg=#2E343F]#{?client_prefix,#[bg=#EC0868],#[bg=#aaaaaa]}#[fg=#121212]#{?client_prefix,#[bg=#EC0868],#[bg=#aaaaaa]} #{window_index}. #{window_name} #[bg=#232324]#{?client_prefix,#[fg=#EC0868],#[fg=#aaaaaa]}#[bg=default]"
+# set -g window-status-separator ""
+
+#+----------------+
+#+  Other Styles  +
+#+----------------+
+set-option -g mode-style "fg=#ffd787,bg=#5f8700"
+set-option -g message-style "fg=black,bg=#88C0D0"
+
