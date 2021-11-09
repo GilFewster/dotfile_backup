@@ -151,3 +151,4 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+PATH=$(pyenv root)/shims:$PATH

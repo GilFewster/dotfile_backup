@@ -59,6 +59,11 @@
           "path": "~/dev/lab/design-system"
         },
         {
+          "name": "Stitches",
+          "description": "React Stitches Experiments",
+          "path": "~/dev/lab/react-stitches"
+        },
+        {
           "name": "Drag List",
           "description": "Drag and Drop sortable lists",
           "path": "~/dev/lab/lists"
