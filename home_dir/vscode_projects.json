@@ -24,14 +24,9 @@
           "path": "~/dev/artpro/nma-lia-di-icecore"
         },
         {
-          "name": "NoQ ToT WebApp",
-          "description": "Tastes of Tasmania NoQ Web App",
-          "path": "~/dev/artpro/tastetas-noq-web"
-        },
-        {
-          "name": "NoQ ToT Admin",
-          "description": "Tastes of Tasmania NoQ Admin App",
-          "path": "~/dev/artpro/tastetas-noq-admin"
+          "name": "Getty MOS",
+          "description": "Part of MOS App Monorepo ",
+          "path": "~/dev/artpro/getty-mos"
         }
       ]
     },
@@ -79,13 +74,38 @@
           "path": "~/dev/lab/stega"
         },
         {
+          "name": "Jester",
+          "description": "Jesting testing",
+          "path": "~/dev/lab/jester"
+        },
+        {
           "name": "Dotfiles Backup",
           "description": "Backing up dotfiles",
           "path": "~/dotfile_backup"
         },
         {
+          "name": "Dominion",
+          "description": "Dominion",
+          "path": "~/dev/lab/dominion"
+        },
+        {
+          "name": "Remixer",
+          "description": "Remix Learning",
+          "path": "~/dev/lab/remixer"
+        },
+        {
+          "name": "Serial API",
+          "description": "Send and receive serial data in the browser",
+          "path": "~/dev/lab/serialapi"
+        },
+        {
+          "name": "Depth Tool Serverless",
+          "description": "Build parallax images from photo depth maps",
+          "path": "~/dev/lab/img-depth"
+        },
+        {
           "name": "Depth Tool",
-          "description": "Build paralax images from photo depth maps",
+          "description": "Build parallax images from photo depth maps",
           "path": "~/dev/lab/depthmap"
         }
       ]
