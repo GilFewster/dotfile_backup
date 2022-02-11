@@ -8,6 +8,8 @@ alias als="bat ~/.zsh_aliases"
 
 alias mux="tmux" 
 
+alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
+
 # yarn
 alias ys="yarn start"
 alias yw="yarn watch"
