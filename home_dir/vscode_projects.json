@@ -19,6 +19,11 @@
       "name": "AP Services",
       "projects": [
         {
+          "name": "Alcatraz-a-mataz",
+          "description": "There is no escape",
+          "path": "~/dev/artpro/alcatraz-park-cruise-tables-electron"
+        },
+        {
           "name": "Icecore Interactive",
           "description": "NMA Ice Core Electron App",
           "path": "~/dev/artpro/nma-lia-di-icecore"
@@ -39,14 +44,9 @@
           "path": "~/dev/lab/react-hook-forms"
         },
         {
-          "name": "Serial API (Browser)",
+          "name": "Serial API",
           "description": "Send and receive serial data in the browser",
-          "path": "~/dev/lab/serialapi/webapp"
-        },
-        {
-          "name": "Serial API (Server)",
-          "description": "Node serer which receives serial port data and streams over a WebSocket",
-          "path": "~/dev/lab/serialapi/node-server"
+          "path": "~/dev/lab/serial-api"
         },
         {
           "name": "Vanilla Extract",
@@ -64,9 +64,9 @@
       "name": "Personal",
       "projects": [
         {
-          "name": "Stega",
-          "description": "Steganography",
-          "path": "~/dev/lab/stega"
+          "name": "Electron Lab",
+          "description": "Tests with Electron and Forge",
+          "path": "~/dev/lab/electron-lab"
         },
         {
           "name": "Jester",

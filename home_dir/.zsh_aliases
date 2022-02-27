@@ -17,6 +17,7 @@ alias yw="yarn watch"
 # git 
 alias gcd="git checkout dev"
 alias grim="git rebase -i main"
+alias gt="git tag"
 
 # Directories
 alias hd="cd ~/"
