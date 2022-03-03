@@ -24,9 +24,9 @@
           "path": "~/dev/artpro/alcatraz-park-cruise-tables-electron"
         },
         {
-          "name": "Icecore Interactive",
-          "description": "NMA Ice Core Electron App",
-          "path": "~/dev/artpro/nma-lia-di-icecore"
+          "name": "NSM",
+          "description": "National Sports Museum MCG",
+          "path": "~/dev/artpro/nsm-digital-console-electron"
         },
         {
           "name": "Getty MOS",
@@ -39,64 +39,24 @@
       "name": "AP Lab",
       "projects": [
         {
-          "name": "React Hook Form",
-          "description": "Poking React Hook Forms",
-          "path": "~/dev/lab/react-hook-forms"
-        },
-        {
           "name": "Serial API",
           "description": "Send and receive serial data in the browser",
           "path": "~/dev/lab/serial-api"
         },
         {
-          "name": "Vanilla Extract",
-          "description": "Testing",
-          "path": "~/dev/lab/vanilla-extract"
-        },
-        {
-          "name": "Generative SVG Experiments",
-          "description": "Gen SVG",
-          "path": "~/dev/lab/generative-svg"
+          "name": "Remixer",
+          "description": "Remix Learning",
+          "path": "~/dev/lab/remixer"
         }
       ]
     },
     {
-      "name": "Personal",
+      "name": "JS Testing Course",
       "projects": [
         {
-          "name": "Electron Lab",
-          "description": "Tests with Electron and Forge",
-          "path": "~/dev/lab/electron-lab"
-        },
-        {
-          "name": "Jester",
-          "description": "Jesting testing",
-          "path": "~/dev/lab/jester"
-        },
-        {
-          "name": "Dotfiles Backup",
-          "description": "Backing up dotfiles",
-          "path": "~/dotfile_backup"
-        },
-        {
-          "name": "Dominion",
-          "description": "Dominion",
-          "path": "~/dev/lab/dominion"
-        },
-        {
-          "name": "Remixer",
-          "description": "Remix Learning",
-          "path": "~/dev/lab/remixer"
-        },
-        {
-          "name": "Depth Tool Serverless",
-          "description": "Build parallax images from photo depth maps",
-          "path": "~/dev/lab/img-depth"
-        },
-        {
-          "name": "Depth Tool",
-          "description": "Build parallax images from photo depth maps",
-          "path": "~/dev/lab/depthmap"
+          "name": "All Modules",
+          "description": "",
+          "path": "~/dev/lab/js-testing"
         }
       ]
     }

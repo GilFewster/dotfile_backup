@@ -2709,13 +2709,6 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0x70-0x100000-0x23</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x16 0x10</string>
-		</dict>
 		<key>0x7f-0x100000</key>
 		<dict>
 			<key>Action</key>
@@ -3479,6 +3472,8 @@
 			<true/>
 			<key>Prompt Before Closing 2</key>
 			<integer>0</integer>
+			<key>Right Option Key Changeable</key>
+			<true/>
 			<key>Right Option Key Sends</key>
 			<integer>1</integer>
 			<key>Rows</key>
@@ -4057,7 +4052,7 @@
 	<key>RightCommand</key>
 	<integer>8</integer>
 	<key>RightOption</key>
-	<integer>3</integer>
+	<integer>1</integer>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
