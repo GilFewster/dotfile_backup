@@ -29,9 +29,9 @@
           "path": "~/dev/artpro/nsm-digital-console-electron"
         },
         {
-          "name": "Getty MOS",
-          "description": "Part of MOS App Monorepo ",
-          "path": "~/dev/artpro/getty-mos"
+          "name": "MOS Monorepo (inc. Getty)",
+          "description": "Monorepo for all things MOS, including Getty",
+          "path": "~/dev/artpro/mos-apps"
         }
       ]
     },
@@ -44,9 +44,9 @@
           "path": "~/dev/lab/serial-api"
         },
         {
-          "name": "Remixer",
-          "description": "Remix Learning",
-          "path": "~/dev/lab/remixer"
+          "name": "Bare Conductive SDK",
+          "description": "Monorepo with tools and utils for working with serial data from the Bare Conductive board",
+          "path": "~/dev/lab/bareconductive-sdk"
         }
       ]
     },

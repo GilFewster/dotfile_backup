@@ -70,14 +70,6 @@ COMPLETION_WAITING_DOTS="true"
 # See ~/.zsh_aliases 
 . ~/.zsh_aliases
 
-###################################
-#              NVS                #
-#     (Node Version Switcher)     #
-###################################
-# export NVS_HOME="$HOME/.nvs"
-# [ -s "$NVS_HOME/nvs.sh" ] && . "$NVS_HOME/nvs.sh"
-# eval $(thefuck --alias)
-
 
 ###################################
 #          THEME SETTINGS         #

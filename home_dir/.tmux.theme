@@ -19,7 +19,7 @@ setw -g window-style 'bg=#2E343F,fg=#D8DEE9'
 #+--------------+
 set -g pane-border-format "╮#{?window_zoomed_flag, 🔎,} #{?client_prefix,#[fg=#EC0868]PREFIX ACTIVE,#{pane_current_path}} #[fg=default]╭"
 setw -g pane-border-status top
-set-option -g pane-border-style 'bg=#2E343F,fg=#666667'
+set-option -g pane-border-style 'bg=#4E343F,fg=#666667'
 set -g pane-active-border-style "bg=#2D333E,fg=white"
 # set -g pane-active-border-style "fg=cyan"
 
@@ -33,7 +33,6 @@ set-option -g status-position bottom
 set -g status-left-length 40
 set -g status-right-length 100
 set -g status-left "#[fg=#999999,bg=#2E343F] "
-# set -g status-right 'HEY'
 set -g status-right '#(~/go/bin/./gitmux "#{pane_current_path}")'
 
 set -g window-status-format "[#I]"
