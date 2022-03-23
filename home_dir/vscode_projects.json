@@ -47,6 +47,11 @@
           "name": "Bare Conductive SDK",
           "description": "Monorepo with tools and utils for working with serial data from the Bare Conductive board",
           "path": "~/dev/lab/bareconductive-sdk"
+        },
+        {
+          "name": "Bare Conductive NX SDK",
+          "description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
+          "path": "~/dev/lab/aplab-bareconductive"
         }
       ]
     },
@@ -57,6 +62,21 @@
           "name": "All Modules",
           "description": "",
           "path": "~/dev/lab/js-testing"
+        }
+      ]
+    },
+    {
+      "name": "Raycast Extensions",
+      "projects": [
+        {
+          "name": "All Raycast extensions",
+          "description": "",
+          "path": "~/dev/raycast-extensions"
+        },
+        {
+          "name": "Hello World",
+          "description": " Hello world demo",
+          "path": "~/dev/raycast-extensions/hello-world"
         }
       ]
     }
