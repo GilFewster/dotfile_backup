@@ -39,14 +39,9 @@
       "name": "AP Lab",
       "projects": [
         {
-          "name": "Serial API",
+          "name": "Serial Archive",
           "description": "Send and receive serial data in the browser",
-          "path": "~/dev/lab/serial-api"
-        },
-        {
-          "name": "Bare Conductive SDK",
-          "description": "Monorepo with tools and utils for working with serial data from the Bare Conductive board",
-          "path": "~/dev/lab/bareconductive-sdk"
+          "path": "~/dev/lab/serial-api-archive"
         },
         {
           "name": "Bare Conductive NX SDK",
