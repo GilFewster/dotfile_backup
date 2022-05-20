@@ -12,22 +12,22 @@
           "name": "APSYS Packages",
           "description": "AP Systems Packages",
           "path": "~/dev/artpro/apsys-console-packages"
+        },
+        {
+          "name": "NOQ Web (Mofo)",
+          "description": "Web application for APSYS-NOQ",
+          "path": "~/dev/artpro/apsys-noq-web"
+        },
+        {
+          "name": "NOQ Admin (Mofo)",
+          "description": "Admin application for APSYS-NOQ",
+          "path": "~/dev/artpro/apsys-noq-admin"
         }
       ]
     },
     {
       "name": "AP Services",
       "projects": [
-        {
-          "name": "Alcatraz-a-mataz",
-          "description": "There is no escape",
-          "path": "~/dev/artpro/alcatraz-park-cruise-tables-electron"
-        },
-        {
-          "name": "NSM",
-          "description": "National Sports Museum MCG",
-          "path": "~/dev/artpro/nsm-digital-console-electron"
-        },
         {
           "name": "MOS Monorepo (inc. Getty)",
           "description": "Monorepo for all things MOS, including Getty",
@@ -36,12 +36,17 @@
       ]
     },
     {
-      "name": "AP Lab",
+      "name": "AP Lab / Experiments",
       "projects": [
         {
           "name": "Serial Archive",
           "description": "Send and receive serial data in the browser",
           "path": "~/dev/lab/serial-api-archive"
+        },
+        {
+          "name": "QSIM",
+          "description": "Queue Simulation",
+          "path": "~/dev/lab/qsim"
         },
         {
           "name": "Bare Conductive NX SDK",
@@ -61,15 +66,20 @@
       ]
     },
     {
-      "name": "Raycast Extensions",
+      "name": "Personal",
       "projects": [
+        {
+          "name": "Jen Breach MonoRepo",
+          "description": "www.jenbreach.com",
+          "path": "~/dev/personal/jenbreach"
+        },
         {
           "name": "All Raycast extensions",
           "description": "",
           "path": "~/dev/raycast-extensions"
         },
         {
-          "name": "Hello World",
+          "name": "Hello World Raycast Extension",
           "description": " Hello world demo",
           "path": "~/dev/raycast-extensions/hello-world"
         }
