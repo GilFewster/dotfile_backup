@@ -20,4 +20,7 @@ if [[ `git status --porcelain` ]]; then
 		git push origin main
 	} >/dev/null
 	echo "Synced local dotfiles to github repo"
+else
+	echo ""
+	exit 0
 fi
