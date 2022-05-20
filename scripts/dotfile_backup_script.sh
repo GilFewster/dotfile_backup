@@ -4,8 +4,6 @@
 
 cd ${HOME}/dotfile_backup/
 
-BACKUP=${HOME}/dotfile_backup/scripts/backup_list
-
 timestamp() {
   date +"%d-%m-%Y at %T"
 }
@@ -15,8 +13,11 @@ grep -v '^$\|^\s*\#' $BACKUP | while read -r line; do
 done
 
 if [[ `git status --porcelain` ]]; then
-	git pull origin main
-	git add .
-	git commit -m "automatic update: $(timestamp)"
-	git push origin main
+	{
+		git pull origin main
+		git add .
+		git commit -m "automatic update: $(timestamp)"
+		git push origin main
+	} >/dev/null
+	echo "Synced local dotfiles to github repo"
 fi
