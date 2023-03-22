@@ -8,9 +8,77 @@
       "isOpen": false,
       "isSystem": false,
       "createdAt": 1679467181889,
-      "updatedAt": 1679467181889
+      "updatedAt": 1679467181889,
+      "index": 0
+    },
+    {
+      "name": "Typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "naXiu3YO",
+      "createdAt": 1679475441537,
+      "updatedAt": 1679475446774,
+      "index": 1
     }
   ],
-  "snippets": [],
-  "tags": []
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "naXiu3YO",
+      "tagsIds": [
+        "hF2Zgt49",
+        "Ho0Y_Wab"
+      ],
+      "description": null,
+      "name": "At least one of type",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "type AtLeastOnePropertyOf<T> = { [K in keyof T]:\n  { [L in K]: T[L] } &\n  { [L in Exclude<keyof T, K>]?: T[L] }\n}[keyof T];"
+        }
+      ],
+      "id": "jFFmcZ2t",
+      "createdAt": 1679475371684,
+      "updatedAt": 1679475450833
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "naXiu3YO",
+      "tagsIds": [
+        "hF2Zgt49",
+        "Ho0Y_Wab"
+      ],
+      "description": null,
+      "name": "Array of strings to union type",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "typescript",
+          "value": "// Note array to be converted must be a const\n// eg: \n// myArr = ['one', 'two'] as const\n// type MyUnion = StringArrayToUnion<typeof myArr>\ntype StringArrayToUnion<T extends readonly string[]> = T[number]"
+        }
+      ],
+      "id": "HXk-UuHB",
+      "createdAt": 1679475903810,
+      "updatedAt": 1679476042783
+    }
+  ],
+  "tags": [
+    {
+      "name": "typescript",
+      "id": "hF2Zgt49",
+      "createdAt": 1679475397029,
+      "updatedAt": 1679475397029
+    },
+    {
+      "name": "utility",
+      "id": "Ho0Y_Wab",
+      "createdAt": 1679475404748,
+      "updatedAt": 1679475404748
+    }
+  ]
 }
