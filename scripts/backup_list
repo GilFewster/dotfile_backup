@@ -1,32 +1,32 @@
 # zsh
 
-${HOME}/.zshrc ${HOME}/dotfile_backup/home_dir/.zshrc
-${HOME}/.zsh_aliases ${HOME}/dotfile_backup/home_dir/.zsh_aliases
-${HOME}/.p10k.zsh ${HOME}/dotfile_backup/home_dir/.p10k.zsh
+~/.zshrc ~/dotfile_backup/home_dir/.zshrc
+~/.zsh_aliases ~/dotfile_backup/home_dir/.zsh_aliases
+~/.p10k.zsh ~/dotfile_backup/home_dir/.p10k.zsh
 
 # tmux
 
-${HOME}/.tmux.conf ${HOME}/dotfile_backup/home_dir/.tmux.conf
-${HOME}/.tmux.theme ${HOME}/dotfile_backup/home_dir/.tmux.theme
+~/.tmux.conf ~/dotfile_backup/home_dir/.tmux.conf
+~/.tmux.theme ~/dotfile_backup/home_dir/.tmux.theme
 
 # vs code
 
-${HOME}/vscode_projects.json ${HOME}/dotfile_backup/home_dir/vscode_projects.json
+~/vscode_projects.json ~/dotfile_backup/home_dir/vscode_projects.json
 
 # Brew
 
-${HOME}/Brewfile ${HOME}/dotfile_backup/home_dir/Brewfile
+~/Brewfile ~/dotfile_backup/home_dir/Brewfile
 
 # vim & nvim
 
-${HOME}/.vimrc ${HOME}/dotfile_backup/vim/.vimrc
-${HOME}/.config/nvim/init.vim ${HOME}/dotfile_backup/nvim/init.vim
+~/.vimrc ~/dotfile_backup/vim/.vimrc
+~/.config/nvim/init.vim ~/dotfile_backup/nvim/init.vim
 
 # iterm
 
-${HOME}/iterm-prefs/com.googlecode.iterm2.plist ${HOME}/dotfile_backup/iterm/com.googlecode.iterm2.plist
-${HOME}/iterm-prefs/nord.itermcolors ${HOME}/dotfile_backup/iterm/nord.itermcolors
+~/iterm-prefs/com.googlecode.iterm2.plist ~/dotfile_backup/iterm/com.googlecode.iterm2.plist
+~/iterm-prefs/nord.itermcolors ~/dotfile_backup/iterm/nord.itermcolors
 
 # Mass Code code snippets
 
-${HOME}/massCode/db.json ${HOME}/dotfile_backup/massCode/db.json
+~/massCode/db.json ~/dotfile_backup/massCode/db.json

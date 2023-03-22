@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/zsh
 
 # This script helps me update my dot files regularly
 cd ${HOME}/dotfile_backup/
