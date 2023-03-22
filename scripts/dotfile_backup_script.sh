@@ -15,9 +15,17 @@ timestamp() {
 # 	echo "$line"
 # done
 
-grep -v '^$\|^\s*\#' scripts/backup_list | while read -r line; do
-	echo "$line" | awk '{ system("rsync " $1 " " $2) }'
-	# echo "$line" | awk '{ system("echo " $1 " " $2) }'
+# grep -v '^$\|^\s*\#' scripts/backup_list
+
+# while read line; do
+# 	echo $line
+# done < scripts/backup_list 
+
+echo "== Files coped on $(timestamp) ==" > report.txt
+
+grep '^[\~\w\d\.\\]' scripts/backup_list | while read -r line; do
+	echo "" >> report.txt
+	echo "$line" | awk '{ system("rsync --out-format=%n " $1 " " $2) }' >> report.txt
 done
 
 if [[ `git status --porcelain` ]]; then

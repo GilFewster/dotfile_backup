@@ -17,9 +17,8 @@
 
 ~/Brewfile ~/dotfile_backup/home_dir/Brewfile
 
-# vim & nvim
+# nvim
 
-~/.vimrc ~/dotfile_backup/vim/.vimrc
 ~/.config/nvim/init.vim ~/dotfile_backup/nvim/init.vim
 
 # iterm

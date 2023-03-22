@@ -1,0 +1,23 @@
+== Files coped on 22-03-2023 at 19:05:55 ==
+
+.zshrc
+
+.zsh_aliases
+
+.p10k.zsh
+
+.tmux.conf
+
+.tmux.theme
+
+vscode_projects.json
+
+Brewfile
+
+init.vim
+
+com.googlecode.iterm2.plist
+
+nord.itermcolors
+
+db.json
