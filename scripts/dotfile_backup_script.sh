@@ -17,7 +17,7 @@ timestamp() {
 
 grep -v '^$\|^\s*\#' scripts/backup_list | while read -r line; do
 	# echo "$line" | awk '{ system("rsync " $1 " " $2) }'
-	echo "$line" | awk '{ system("- " $1 " " $2) }'
+	echo "$line" | awk '{ system("echo " $1 " " $2) }'
 done
 
 if [[ `git status --porcelain` ]]; then
