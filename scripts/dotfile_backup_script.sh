@@ -11,13 +11,14 @@ timestamp() {
 #     echo "Text read from file: $line"
 # done < grep -v '^$\|^\s*\#' | scripts/backup_list
 
-grep -v '^$\|^\s*\#' scripts/backup_list | while read -r line; do
-	echo "$line"
-done
-
-# grep -v '^$\|^\s*\#' $BACKUP | while read -r line; do
-# 	echo "$line" | awk '{ system("rsync " $1 " " $2) }'
+# grep -v '^$\|^\s*\#' scripts/backup_list | while read -r line; do
+# 	echo "$line"
 # done
+
+grep -v '^$\|^\s*\#' scripts/backup_list | while read -r line; do
+	# echo "$line" | awk '{ system("rsync " $1 " " $2) }'
+	echo "$line" | awk '{ system("- " $1 " " $2) }'
+done
 
 if [[ `git status --porcelain` ]]; then
 	{

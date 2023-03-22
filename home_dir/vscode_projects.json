@@ -4,24 +4,14 @@
       "name": "APSYS",
       "projects": [
         {
-          "name": "APSYS Console",
-          "description": "AP Systems Console",
+          "name": "ApSYS Console",
+          "description": "Console application for AP Systems Platform",
           "path": "~/dev/artpro/apsys-console"
         },
         {
-          "name": "APSYS Packages",
-          "description": "AP Systems Packages",
+          "name": "ApSYS Console Packages",
+          "description": "Packages and Design Systems for AP Systems Console",
           "path": "~/dev/artpro/apsys-console-packages"
-        },
-        {
-          "name": "NOQ Web (Mofo)",
-          "description": "Web application for APSYS-NOQ",
-          "path": "~/dev/artpro/apsys-noq-web"
-        },
-        {
-          "name": "NOQ Admin (Mofo)",
-          "description": "Admin application for APSYS-NOQ",
-          "path": "~/dev/artpro/apsys-noq-admin"
         }
       ]
     },
@@ -32,6 +22,16 @@
           "name": "MOS Monorepo (inc. Getty)",
           "description": "Monorepo for all things MOS, including Getty",
           "path": "~/dev/artpro/mos-apps"
+        },
+        {
+          "name": "Shared FE Config",
+          "description": "",
+          "path": "~/dev/artpro/shared-fe-config"
+        },
+        {
+          "name": "Maestro",
+          "description": "",
+          "path": "~/dev/artpro/maestro/mhnsw-maestro-broker"
         }
       ]
     },
@@ -39,29 +39,19 @@
       "name": "AP Lab / Experiments",
       "projects": [
         {
-          "name": "Serial Archive",
-          "description": "Send and receive serial data in the browser",
-          "path": "~/dev/lab/serial-api-archive"
+          "name": "Sweary Critic",
+          "description": "A sweary GPT Art Critic",
+          "path": "~/dev/lab/sweary-critic"
         },
         {
-          "name": "QSIM",
-          "description": "Queue Simulation",
-          "path": "~/dev/lab/qsim"
+          "name": "VisX Test",
+          "description": "Testing VisX Wrappers",
+          "path": "~/dev/lab/visx-test"
         },
         {
           "name": "Bare Conductive NX SDK",
           "description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
           "path": "~/dev/lab/aplab-bareconductive"
-        }
-      ]
-    },
-    {
-      "name": "JS Testing Course",
-      "projects": [
-        {
-          "name": "All Modules",
-          "description": "",
-          "path": "~/dev/lab/js-testing"
         }
       ]
     },
@@ -74,14 +64,14 @@
           "path": "~/dev/personal/jenbreach"
         },
         {
-          "name": "All Raycast extensions",
-          "description": "",
-          "path": "~/dev/raycast-extensions"
+          "name": "gilfewster.com",
+          "description": "Updated basic website",
+          "path": "~/dev/personal/gilfewstercom"
         },
         {
-          "name": "Hello World Raycast Extension",
-          "description": " Hello world demo",
-          "path": "~/dev/raycast-extensions/hello-world"
+          "name": "wigglr",
+          "description": "Device Motion Experiments",
+          "path": "~/dev/personal/wigglr"
         }
       ]
     }

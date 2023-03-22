@@ -177,3 +177,6 @@ n ()
             rm -f "$NNN_TMPFILE" > /dev/null
     fi
 }
+
+eval $(thefuck --alias)
+export PATH="/usr/local/sbin:$PATH"
