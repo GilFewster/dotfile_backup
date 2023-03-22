@@ -14,10 +14,13 @@
 ~/Brewfile ~/dotfile_backup/home_dir/Brewfile
 
 
-# vim & nvim 
+# vim & nvim
 ~/.vimrc ~/dotfile_backup/vim/.vimrc
 ~/.config/nvim/init.vim  ~/dotfile_backup/nvim/init.vim
 
 # iterm
 ~/iterm-prefs/com.googlecode.iterm2.plist ~/dotfile_backup/iterm/com.googlecode.iterm2.plist
 ~/iterm-prefs/nord.itermcolors ~/dotfile_backup/iterm/nord.itermcolors
+
+# Mass Code code snippets
+~/massCode/db.json ~/dotfile_backup/massCode/db.json
