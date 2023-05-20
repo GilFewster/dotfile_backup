@@ -13,8 +13,8 @@ export ZSH="/Users/gilfewster/.oh-my-zsh"
 
 DEFAULT_USER=`whoami`
 
-# Precede a command with a single space 
-# to prevent it from being saved in the 
+# Precede a command with a single space
+# to prevent it from being saved in the
 # shell history.
 setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
@@ -67,7 +67,7 @@ if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -
 COMPLETION_WAITING_DOTS="true"
 
 # ALIASES
-# See ~/.zsh_aliases 
+# See ~/.zsh_aliases
 . ~/.zsh_aliases
 
 
@@ -81,15 +81,16 @@ COMPLETION_WAITING_DOTS="true"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Override Some Defaults
-POWERLEVEL9K_MODE='nerdfont-complete'
+ POWERLEVEL9K_MODE='nerdfont-complete'
 # POWERLEVEL9K_SHORTEN_DIR_LENGTH=3
 # POWERLEVEL9K_SHORTEN_DELIMITER="..."
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
-POWERLEVEL9K_HIDE_BRANCH_ICON=true
-POWERLEVEL9K_STATUS_HIDE_SIGNAME=true
+# POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
+ POWERLEVEL9K_HIDE_BRANCH_ICON=true
+ POWERLEVEL9K_STATUS_HIDE_SIGNAME=true
 # POWERLEVEL9K_DIR_FOREGROUND="grey19"
 # POWERLEVEL9K_DIR_BACKGROUND="grey89"
 # POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status dir_writable)
+
 
 # tabtab source for packages
 # uninstall by removing these lines
