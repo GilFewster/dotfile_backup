@@ -19,9 +19,9 @@
       "name": "AP Services",
       "projects": [
         {
-          "name": "MOS Monorepo (inc. Getty)",
-          "description": "Monorepo for all things MOS, including Getty",
-          "path": "~/dev/artpro/mos-apps"
+          "name": "NMWA02 Connections Kiosk",
+          "description": "Electron application for NMWA Connections",
+          "path": "~/dev/artpro/nmwa02-connections-kiosk"
         },
         {
           "name": "Shared FE Config",
