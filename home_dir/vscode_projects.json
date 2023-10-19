@@ -49,6 +49,11 @@
           "path": "~/dev/lab/play-ht-api/play-ht"
         },
         {
+          "name": "PlayHT with Marko",
+          "description": "Testing the text-to-speech api for the PlayHT platform and Marko template engine",
+          "path": "~/dev/lab/play-ht-api/play-ht-marko"
+        },
+        {
           "name": "VisX Test",
           "description": "Testing VisX Wrappers",
           "path": "~/dev/lab/visx-test"
