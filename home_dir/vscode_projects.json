@@ -44,6 +44,11 @@
           "path": "~/dev/lab/sweary-critic"
         },
         {
+          "name": "PlayHT API",
+          "description": "Testing the text-to-speech api for the PlayHT platform",
+          "path": "~/dev/lab/play-ht-api/play-ht"
+        },
+        {
           "name": "VisX Test",
           "description": "Testing VisX Wrappers",
           "path": "~/dev/lab/visx-test"
