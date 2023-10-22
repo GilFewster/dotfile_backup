@@ -46,7 +46,7 @@
         {
           "name": "PlayHT API",
           "description": "Testing the text-to-speech api for the PlayHT platform",
-          "path": "~/dev/lab/play-ht-api"
+          "path": "~/dev/lab/play-ht-api/playht-sveltekit"
         },
         {
           "name": "VisX Test",
