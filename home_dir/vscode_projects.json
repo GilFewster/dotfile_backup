@@ -1,16 +1,21 @@
 {
   "groups": [
     {
-      "name": "APSYS",
+      "name": "Pladia",
       "projects": [
         {
-          "name": "ApSYS Console",
-          "description": "Console application for AP Systems Platform",
+          "name": "Pladia PWA",
+          "description": "Pladia PWA Client",
+          "path": "~/dev/artpro/apsys-eileen-web"
+        },
+        {
+          "name": "Pladia Console",
+          "description": "Pladia Console application",
           "path": "~/dev/artpro/apsys-console"
         },
         {
-          "name": "ApSYS Console Packages",
-          "description": "Packages and Design Systems for AP Systems Console",
+          "name": "Pladia Console Packages",
+          "description": "Packages and Design Systems for Pladia Console",
           "path": "~/dev/artpro/apsys-console-packages"
         }
       ]
@@ -44,9 +49,9 @@
           "path": "~/dev/lab/sweary-critic"
         },
         {
-          "name": "PlayHT API",
-          "description": "Testing the text-to-speech api for the PlayHT platform",
-          "path": "~/dev/lab/play-ht-api/playht-sveltekit"
+          "name": "AI Generated Text To Speech (TTS)",
+          "description": "Exploring text-to-speech platforms for Lab APRD250 project",
+          "path": "~/dev/lab/aprd250-text-to-speech"
         },
         {
           "name": "VisX Test",
@@ -80,5 +85,6 @@
         }
       ]
     }
-  ]
+  ],
+  "group": "AP Lab / Experiments"
 }
