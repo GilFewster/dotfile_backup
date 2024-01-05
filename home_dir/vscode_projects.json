@@ -69,19 +69,9 @@
       "name": "Personal",
       "projects": [
         {
-          "name": "Jen Breach MonoRepo",
-          "description": "www.jenbreach.com",
-          "path": "~/dev/personal/jenbreach"
-        },
-        {
-          "name": "gilfewster.com",
-          "description": "Updated basic website",
-          "path": "~/dev/personal/gilfewstercom"
-        },
-        {
-          "name": "wigglr",
-          "description": "Device Motion Experiments",
-          "path": "~/dev/personal/wigglr"
+          "name": "Genetica",
+          "description": "Playing with gene engines",
+          "path": "~/dev/personal/genetica"
         }
       ]
     }
