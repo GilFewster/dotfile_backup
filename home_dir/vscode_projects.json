@@ -59,6 +59,11 @@
 					"path": "~/dev/lab/visx-test"
 				},
 				{
+					"name": "Giles @ MONA",
+					"description": "Testing OpenAI Assistants for MONA Library",
+					"path": "~/dev/lab/mona-librarian"
+				},
+				{
 					"name": "Bare Conductive NX SDK",
 					"description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
 					"path": "~/dev/lab/aplab-bareconductive"
