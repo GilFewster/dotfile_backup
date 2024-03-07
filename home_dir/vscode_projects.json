@@ -21,12 +21,12 @@
 			]
 		},
 		{
-			"name": "AP Services",
+			"name": "AP Experience Design",
 			"projects": [
 				{
-					"name": "NMWA02 Connections Kiosk",
-					"description": "Electron application for NMWA Connections",
-					"path": "~/dev/artpro/nmwa02-connections-kiosk"
+					"name": "Mona Namedropping",
+					"description": "Gallery purchase app for Namedropping exhibition",
+					"path": "~/dev/artpro/mona-namedropping-service"
 				},
 				{
 					"name": "Shared FE Config",
