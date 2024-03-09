@@ -1,84 +1,85 @@
 {
-	"groups": [
-		{
-			"name": "Pladia",
-			"projects": [
-				{
-					"name": "Pladia PWA",
-					"description": "Pladia PWA Client",
-					"path": "~/dev/artpro/apsys-eileen-web"
-				},
-				{
-					"name": "Pladia Console",
-					"description": "Pladia Console application",
-					"path": "~/dev/artpro/apsys-console"
-				},
-				{
-					"name": "Pladia Console Packages",
-					"description": "Packages and Design Systems for Pladia Console",
-					"path": "~/dev/artpro/apsys-console-packages"
-				}
-			]
-		},
-		{
-			"name": "AP Experience Design",
-			"projects": [
-				{
-					"name": "Mona Namedropping",
-					"description": "Gallery purchase app for Namedropping exhibition",
-					"path": "~/dev/artpro/mona-namedropping-service"
-				},
-				{
-					"name": "Shared FE Config",
-					"description": "",
-					"path": "~/dev/artpro/shared-fe-config"
-				},
-				{
-					"name": "Maestro",
-					"description": "",
-					"path": "~/dev/artpro/maestro/mhnsw-maestro-broker"
-				}
-			]
-		},
-		{
-			"name": "AP Lab / Experiments",
-			"projects": [
-				{
-					"name": "Ant Farm",
-					"description": "Ant pathfinding",
-					"path": "~/dev/lab/antfarm"
-				},
-				{
-					"name": "AI Generated Text To Speech (TTS)",
-					"description": "Exploring text-to-speech platforms for Lab APRD250 project",
-					"path": "~/dev/lab/aprd250-text-to-speech"
-				},
-				{
-					"name": "VisX Test",
-					"description": "Testing VisX Wrappers",
-					"path": "~/dev/lab/visx-test"
-				},
-				{
-					"name": "Giles @ MONA",
-					"description": "Testing OpenAI Assistants for MONA Library",
-					"path": "~/dev/lab/mona-librarian"
-				},
-				{
-					"name": "Bare Conductive NX SDK",
-					"description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
-					"path": "~/dev/lab/aplab-bareconductive"
-				}
-			]
-		},
-		{
-			"name": "Personal",
-			"projects": [
-				{
-					"name": "Genetica",
-					"description": "Playing with gene engines",
-					"path": "~/dev/personal/genetica"
-				}
-			]
-		}
-	]
+  "groups": [
+    {
+      "name": "Pladia",
+      "projects": [
+        {
+          "name": "Pladia PWA",
+          "description": "APSYS Progressive Web App for web based tours",
+          "path": "~/dev/artpro/apsys-eileen-web"
+        },
+        {
+          "name": "Pladia Console",
+          "description": "Pladia Console application",
+          "path": "~/dev/artpro/apsys-console"
+        },
+        {
+          "name": "Pladia Console Packages",
+          "description": "Packages and Design Systems for Pladia Console",
+          "path": "~/dev/artpro/apsys-console-packages"
+        }
+      ]
+    },
+    {
+      "name": "AP Experience Design",
+      "projects": [
+        {
+          "name": "Mona Namedropping",
+          "description": "Gallery purchase app for Namedropping exhibition",
+          "path": "~/dev/artpro/mona-namedropping-service"
+        },
+        {
+          "name": "Shared FE Config",
+          "description": "",
+          "path": "~/dev/artpro/shared-fe-config"
+        },
+        {
+          "name": "Maestro",
+          "description": "",
+          "path": "~/dev/artpro/maestro/mhnsw-maestro-broker"
+        }
+      ]
+    },
+    {
+      "name": "AP Lab / Experiments",
+      "projects": [
+        {
+          "name": "Ant Farm",
+          "description": "Ant pathfinding",
+          "path": "~/dev/lab/antfarm"
+        },
+        {
+          "name": "AI Generated Text To Speech (TTS)",
+          "description": "Exploring text-to-speech platforms for Lab APRD250 project",
+          "path": "~/dev/lab/aprd250-text-to-speech"
+        },
+        {
+          "name": "VisX Test",
+          "description": "Testing VisX Wrappers",
+          "path": "~/dev/lab/visx-test"
+        },
+        {
+          "name": "Giles @ MONA",
+          "description": "Testing OpenAI Assistants for MONA Library",
+          "path": "~/dev/lab/mona-librarian"
+        },
+        {
+          "name": "Bare Conductive NX SDK",
+          "description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
+          "path": "~/dev/lab/aplab-bareconductive"
+        }
+      ]
+    },
+    {
+      "name": "Personal",
+      "projects": [
+        {
+          "name": "Genetica",
+          "description": "Playing with gene engines",
+          "path": "~/dev/personal/genetica"
+        }
+      ]
+    }
+  ],
+  "projects": []
 }

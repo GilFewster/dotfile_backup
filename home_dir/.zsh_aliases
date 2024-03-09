@@ -2,7 +2,6 @@
 alias cl="clear"
 alias ll="ls -la"
 
-alias loadPyEnv="eval '$(pyenv init -)' && source /usr/local/bin/virtualenvwrapper.sh"
 alias eal="vim ~/.zsh_aliases"
 alias als="bat ~/.zsh_aliases"
 
@@ -10,14 +9,8 @@ alias mux="tmux"
 
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
 
-# yarn
-alias ys="yarn start"
-alias yw="yarn watch"
-
 # git 
-alias gcd="git checkout dev"
 alias grim="git rebase -i main"
-alias gt="git tag"
 
 # Directories
 alias hd="cd ~/"
@@ -28,14 +21,3 @@ alias dl="cd ~/Downloads"
 # Replace Vim with Neovim
 alias vim="nvim"
 alias vimdiff="nvim -d"
-
-##########################
-#   3rd party packages  
-##########################
-
-# Glow
-alias md="glow"
-alias mdp="glow -p"
-
-# http-server
-alias srv="npx http-server -c-1"

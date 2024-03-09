@@ -5,10 +5,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
+# oh-my-zsh path.
 export ZSH="/Users/gilfewster/.oh-my-zsh"
 
 DEFAULT_USER=`whoami`
@@ -18,11 +15,32 @@ DEFAULT_USER=`whoami`
 # shell history.
 setopt HIST_IGNORE_SPACE
 source $ZSH/oh-my-zsh.sh
-# source ~/.zsh_theme
+
+
+############################################################
+######## // Node/Python/Ruby/etc version managers ##########
+############################################################
+
+# -------FNM  Fast Node Manager------- #
+export PATH="/Users/gilfewster/Library/Caches/fnm_multishells/95141_1709978079208/bin":$PATH
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_LOGLEVEL="info"
+export FNM_COREPACK_ENABLED="false"
+export FNM_MULTISHELL_PATH="/Users/gilfewster/Library/Caches/fnm_multishells/95141_1709978079208"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_RESOLVE_ENGINES="false"
+export FNM_ARCH="x64"
+export FNM_DIR="/Users/gilfewster/Library/Application Support/fnm"
+rehash
+eval "$(fnm env --use-on-cd)"
+
+# -------DirEnv------- #
+eval "$(direnv hook zsh)"
+
 ###########################################################
 #                         Antigen                         #
 # Plugin manager - https://github.com/zsh-users/antigen   #
-# ###########################################################
+############################################################
 
 source /Users/gilfewster/antigen.zsh
 
@@ -39,35 +57,23 @@ antigen bundle node
 antigen bundle npm
 antigen bundle python
 antigen bundle z
-#antigen bundle tmuxinator
 
-# # Syntax highlighting bundle.
+# Syntax highlighting bundle
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 
-# # load theme
+# load theme
 antigen theme romkatv/powerlevel10k
 
-# # Tell Antigen that you're done.
+# Tell Antigen that you're done.
 antigen apply
 
 export EDITOR='nvim'
-
-###################################
-#             PyEnv               #
-###################################
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/dev
-eval "$(pyenv init -)"
-
-# Setup auto-activation for pyenv-virtualenv
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-
-
 COMPLETION_WAITING_DOTS="true"
 
-# ALIASES
-# See ~/.zsh_aliases
+########################
+#       ALIASES        #
+########################
 . ~/.zsh_aliases
 
 
@@ -97,12 +103,7 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_to_last"
 [[ -f ~/.config/tabtab/__tabtab.zsh ]] && . ~/.config/tabtab/__tabtab.zsh || true
 
 
-##########################
-#          RBENV         #
-##########################
-
-eval "$(rbenv init -)"
-
+##### iterm 2 shell integration ? ######
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 ##########################
@@ -112,73 +113,6 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 
-#########################
-#        DIRENV         #
-#########################
-eval "$(direnv hook zsh)"
-
-#########################
-#          NVM          #
-#########################
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-autoload -U add-zsh-hook
-load-nvmrc() {
-  local node_version="$(nvm version)"
-  local nvmrc_path="$(nvm_find_nvmrc)"
-
-  if [ -n "$nvmrc_path" ]; then
-    local nvmrc_node_version=$(nvm version "$(cat "${nvmrc_path}")")
-
-    if [ "$nvmrc_node_version" = "N/A" ]; then
-      nvm install
-    elif [ "$nvmrc_node_version" != "$node_version" ]; then
-      nvm use
-    fi
-  elif [ "$node_version" != "$(nvm version default)" ]; then
-    echo "Reverting to nvm default version"
-    nvm use default
-  fi
-}
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
-PATH=$(pyenv root)/shims:$PATH
-
-#########################
-#         NNN           #
-#########################
-
-n ()
-{
-    # Block nesting of nnn in subshells
-    if [ -n $NNNLVL ] && [ "${NNNLVL:-0}" -ge 1 ]; then
-        echo "nnn is already running"
-        return
-    fi
-
-    # The behaviour is set to cd on quit (nnn checks if NNN_TMPFILE is set)
-    # To cd on quit only on ^G, either remove the "export" as in:
-    #    NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
-    #    (or, to a custom path: NNN_TMPFILE=/tmp/.lastd)
-    # or, export NNN_TMPFILE after nnn invocation
-    export NNN_TMPFILE="${XDG_CONFIG_HOME:-$HOME/.config}/nnn/.lastd"
-
-    # Unmask ^Q (, ^V etc.) (if required, see `stty -a`) to Quit nnn
-    # stty start undef
-    # stty stop undef
-    # stty lwrap undef
-    # stty lnext undef
-
-    nnn "$@"
-
-    if [ -f "$NNN_TMPFILE" ]; then
-            . "$NNN_TMPFILE"
-            rm -f "$NNN_TMPFILE" > /dev/null
-    fi
-}
-
 eval $(thefuck --alias)
+
 export PATH="/usr/local/sbin:$PATH"
-source ${HOME}/.ghcup/env
