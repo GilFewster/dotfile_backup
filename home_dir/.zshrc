@@ -21,18 +21,16 @@ source $ZSH/oh-my-zsh.sh
 ######## // Node/Python/Ruby/etc version managers ##########
 ############################################################
 
-# -------FNM  Fast Node Manager------- #
-export PATH="/Users/gilfewster/Library/Caches/fnm_multishells/95141_1709978079208/bin":$PATH
-export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
-export FNM_LOGLEVEL="info"
-export FNM_COREPACK_ENABLED="false"
-export FNM_MULTISHELL_PATH="/Users/gilfewster/Library/Caches/fnm_multishells/95141_1709978079208"
-export FNM_VERSION_FILE_STRATEGY="local"
-export FNM_RESOLVE_ENGINES="false"
-export FNM_ARCH="x64"
-export FNM_DIR="/Users/gilfewster/Library/Application Support/fnm"
-rehash
-eval "$(fnm env --use-on-cd)"
+
+
+# -------fnm------- #
+eval "$(fnm env)"
+
+# -------PyEnv & VirtualEnv------- #
+# eval "$(pyenv init --path)"
+# eval "$(pyenv init -)"
+# eval "$(pyenv virtualenv-init -)"
+
 
 # -------DirEnv------- #
 eval "$(direnv hook zsh)"
