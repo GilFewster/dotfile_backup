@@ -59,6 +59,11 @@
 					"path": "~/dev/lab/visx-test"
 				},
 				{
+					"name": "Web Component Templates",
+					"description": "Testing Resuable templates with web components",
+					"path": "~/dev/lab/web-component-templates"
+				},
+				{
 					"name": "Namedropping (SVELTE)",
 					"description": "Namedropping rebilt in Svelte just to see the diff",
 					"path": "~/dev/lab/namedropping"
