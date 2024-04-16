@@ -44,39 +44,14 @@
 			"name": "AP Lab / Experiments",
 			"projects": [
 				{
-					"name": "Ant Farm",
-					"description": "Ant pathfinding",
-					"path": "~/dev/lab/antfarm"
-				},
-				{
-					"name": "AI Generated Text To Speech (TTS)",
-					"description": "Exploring text-to-speech platforms for Lab APRD250 project",
-					"path": "~/dev/lab/aprd250-text-to-speech"
-				},
-				{
-					"name": "VisX Test",
-					"description": "Testing VisX Wrappers",
-					"path": "~/dev/lab/visx-test"
-				},
-				{
-					"name": "Web Component Templates",
-					"description": "Testing Resuable templates with web components",
-					"path": "~/dev/lab/web-component-templates"
-				},
-				{
-					"name": "Namedropping (SVELTE)",
-					"description": "Namedropping rebilt in Svelte just to see the diff",
-					"path": "~/dev/lab/namedropping"
+					"name": "FE Console",
+					"description": "Utility Console for FE demos",
+					"path": "~/dev/lab/fe-console"
 				},
 				{
 					"name": "Giles @ MONA",
 					"description": "Testing OpenAI Assistants for MONA Library",
 					"path": "~/dev/lab/mona-librarian"
-				},
-				{
-					"name": "Bare Conductive NX SDK",
-					"description": "NX Monorepo with tools and utils for working with serial data from the Bare Conductive board",
-					"path": "~/dev/lab/aplab-bareconductive"
 				}
 			]
 		},
