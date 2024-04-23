@@ -37,6 +37,11 @@
 					"name": "Maestro",
 					"description": "",
 					"path": "~/dev/artpro/maestro/mhnsw-maestro-broker"
+				},
+				{
+					"name": "Exp Design FE Tools",
+					"description": "Tools, snippets and helpers for FE work",
+					"path": "~/dev/lab/ed-fe-tools"
 				}
 			]
 		},
